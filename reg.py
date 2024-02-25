@@ -148,34 +148,34 @@ if __name__ == "__main__":
 	root.title("registration form")
 
 	# set the configuration of GUI window
-	root.geometry("500x500")
+	root.geometry("500x300")
 	set_background()
 	root.wm_attributes('-transparentcolor','yellow')
 	excel()
 
 	# create a Form label
-	heading = Label(root, text="Form", bg="blue")
+	heading = Label(root, text="Form", bg="white")
 
 	# create a Name label
-	name = Label(root, text="Name", bg="blue")
+	name = Label(root, text="Name", bg="white")
 
 	# create a Course label
-	course = Label(root, text="Course", bg="blue")
+	course = Label(root, text="Course", bg="white")
 
 	# create a Semester label
-	sem = Label(root, text="Semester", bg="blue")
+	sem = Label(root, text="Semester", bg="white")
 
 	# create a Form No. label
-	form_no = Label(root, text="Form No.", bg="blue")
+	form_no = Label(root, text="Form No", bg="white")
 
 	# create a Contact No. label
-	contact_no = Label(root, text="Contact No.", bg="blue")
+	contact_no = Label(root, text="Contact No", bg="white")
 
 	# create a Email id label
-	email_id = Label(root, text="Email id", bg="blue")
+	email_id = Label(root, text="Email id", bg="white")
 
 	# create a address label
-	address = Label(root, text="Address", bg="blue")
+	address = Label(root, text="Address", bg="white")
 
 	# grid method is used for placing
 	# the widgets at respective positions
