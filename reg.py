@@ -6,7 +6,7 @@ from tkinter import *
 # globally declare wb and sheet variable
 
 # opening the existing excel file
-wb = load_workbook('C:\\Users\\rgoku\\OneDrive\\Documents\\pys\\demo.xlsx')
+wb = load_workbook('demo.xlsx')
 
 # create the sheet object
 sheet = wb.active
@@ -126,7 +126,7 @@ def insert():
 		sheet.cell(row=current_row + 1, column=7).value = address_field.get()
 
 		# save the file
-		wb.save('C:\\Users\\rgoku\\OneDrive\\Documents\\pys\\demo.xlsx')
+		wb.save('demo.xlsx')
 
 		# set focus on the name_field box
 		name_field.focus_set()
